@@ -1,0 +1,117 @@
+
+.navbar{
+    max-height: 50px; 
+	background-color:#80c1cc; 
+    font-size: 15px; 
+}
+
+.navigation .navbar-brand{
+	color:  rgb(1, 82, 82); 
+	padding: inherit; 
+	font-weight: bold; 
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.dropdown-item{
+    color: rgb(1, 82, 82); 
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:#59854b; 
+}
+
+.nav-link:hover{
+    background-color:#59854b; 
+}
+.nav-item .nav-link{
+    color:  rgb(1, 82, 82); 
+}
+
+/* Media Queries */
+@media (max-width: 991.98px){
+.navbar-expand-lg{
+	background-color:#80c1cc;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px; 
+}
+
+button{
+    margin-left: auto; 
+}
+
+button:focus {
+    outline: 1px dotted;
+}
+}
+
+
+.description-content {
+
+    position: relative;
+    right:5%;
+	margin-top: 50px;
+	margin-bottom: 60px;
+    padding: 10px 30px 5px;
+	color: black;
+    border-style: solid;
+    border-color:#80c1cc ;
+    
+}
+
+.imageNav-content {
+
+    position: relative;
+    left: 5%;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+    border-style: solid;
+    border-color:#80c1cc ;
+
+ 
+}
+.description-header, .imageNav-header {
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: rgb(1, 82, 82);
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+img{
+	width: 100%;
+    height: 100%;
+    
+}
+
+.description-image {
+	float: left;
+	width: 70%;
+    height: 70%;
+    margin-right: 20px;
+    
+}
+
+p{
+	color: #414d4a;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.active, .imageNav-photo:hover{
+    border-color:#38ab87;
+    border-style: solid; 
+}
+

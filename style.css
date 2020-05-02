@@ -64,15 +64,19 @@ button:focus {
 .description-content {
 
     position: relative;
+    display: inline-block;
     right:5%;
 	margin-top: 50px;
 	margin-bottom: 60px;
     padding: 10px 30px 5px;
 	color: black;
-    border-style: solid;
+    border-style: solid ;
     border-color:#80c1cc ;
+
     
 }
+
+
 
 .imageNav-content {
 
@@ -103,11 +107,17 @@ img{
 }
 
 .description-image {
-	float: left;
+    float: left;
 	width: 70%;
     height: 70%;
     margin-right: 20px;
-    
+}
+
+.description-image-visuals {
+    float: top;
+	width: 70%;
+    height: 70%;
+    margin-right: 20px;
 }
 
 p{

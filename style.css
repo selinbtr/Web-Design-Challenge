@@ -53,6 +53,13 @@ button:focus {
 }
 }
 
+.table{
+    text-align: center;
+    MARGIN-left: auto;
+    MARGIN-right: auto;
+    MARGIN-top: 20PX;
+}
+
 
 .description-content {
 

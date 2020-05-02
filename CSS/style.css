@@ -81,6 +81,7 @@ button:focus {
 .imageNav-content {
 
     position: relative;
+    display: inline-block;
     left: 5%;
 	margin-top: 50px;
 	margin-bottom: 60px;
